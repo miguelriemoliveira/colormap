@@ -104,6 +104,8 @@ add_library(colormap
   src/colormap.cpp
 )
 
+target_link_libraries (colormap ${catkin_LIBRARIES})
+
 ## Declare a cpp executable
 # add_executable(colormap_node src/colormap_node.cpp)
 
